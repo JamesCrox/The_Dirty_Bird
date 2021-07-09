@@ -65,7 +65,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- Fonts from ![https://fonts.google.com/specimen/Abril+Fatface#standard-styles]
 
 ## Testing 
 
@@ -112,6 +112,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Fonts from [https://fonts.google.com/specimen/Abril+Fatface#standard-styles]
 
 ### Media
 

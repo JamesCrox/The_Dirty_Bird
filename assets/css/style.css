@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: open sans, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+#logo {
+    font-family: abril fatface, sans-serif;
+}
