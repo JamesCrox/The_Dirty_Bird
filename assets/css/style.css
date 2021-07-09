@@ -24,5 +24,32 @@ h1 {
 a {
     text-decoration: none;
     color: #fafafa;
+}
 
+#menu {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/* nav bar */
+
+/* bar background */
+
+#bar-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#bar-image {
+    height: 600%;
+    width: 100%;
+    background: url('../images/DBbackground.jpg') no-repeat;
 }
