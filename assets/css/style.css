@@ -24,7 +24,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fafafa;
+    color: #F2F2F2;
 }
 
 header {
@@ -41,10 +41,18 @@ header {
 
 .menu {
     text-align: center;
+    color: #f2f2f2;
     letter-spacing: 5px;
     text-transform: uppercase;
     display: inline-block;
     padding: 30px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #f2f2f2;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* bar background */
