@@ -14,8 +14,13 @@ body {
 
 /* logo and header */
 
+.container {
+    text-align: center;
+}
+
 #logo {
     font-family: abril fatface, sans-serif;
+    font-size: 250%;
 }
 
 h1 {
@@ -27,10 +32,6 @@ a {
     color: #F2F2F2;
 }
 
-header {
-    text-align: center;
-}
-
 /* nav bar */
 
 .menu li {
@@ -40,12 +41,11 @@ header {
 }
 
 .menu {
-    text-align: center;
     color: #f2f2f2;
     letter-spacing: 5px;
     text-transform: uppercase;
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
 }
 
 nav a:hover {
