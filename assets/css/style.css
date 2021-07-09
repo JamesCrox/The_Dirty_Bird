@@ -9,7 +9,7 @@ body {
     font-family: open sans, sans-serif;
     font-weight: 300;
     color: #fafafa;
-    background-color: #183136;
+    background-color: #112326;
 }
 
 /* logo and header */
@@ -21,23 +21,31 @@ body {
 h1 {
     text-transform: uppercase;
 }
+
 a {
     text-decoration: none;
     color: #fafafa;
 }
 
-#menu {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
+header {
+    text-align: center;
 }
 
 /* nav bar */
+
+.menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+.menu {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px;
+}
 
 /* bar background */
 
