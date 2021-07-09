@@ -8,9 +8,21 @@
 body {
     font-family: open sans, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #fafafa;
+    background-color: #183136;
 }
+
+/* logo and header */
 
 #logo {
     font-family: abril fatface, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #fafafa;
+
 }
