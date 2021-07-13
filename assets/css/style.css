@@ -110,3 +110,9 @@ nav a:hover {
 #social li {
     display: inline;
 }
+
+/* Drinks page content */
+
+.drinks-text {
+    font-family: abril fatface, sans-serif;
+}
