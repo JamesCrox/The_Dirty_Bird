@@ -58,17 +58,55 @@ nav a:hover {
 /* bar background */
 
 #bar-outer {
-    height: 900px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #bar-image {
-    height: 600%;
+    height: 100%;
     width: 100%;
-    background: url('../images/DBbackground.jpg') no-repeat;
+    background: url('../images/dbinside9.jpg') no-repeat center;
+    opacity: 85%;
+}
+
+/* Events Section */
+
+#events {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(245, 217, 68, 0.2);
+
+}
+
+#events-text {
+    font-size: 120%;    
+    text-align: center;
+}
+
+/* Gallery photos */
+
+.gallery-photos {
+    clear: both;
+    column-count: 4;
+    line-height: 0;
+    column-gap: 0;
+
+}
+
+.gallery-photos > img {
+    width: 100%;
+    
 }
 
 /* Footer */
 
+#social {
+    font-size: 200%;
+    text-align: center;
+}
+
+#social li {
+    display: inline;
+}
