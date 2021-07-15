@@ -2,15 +2,13 @@
 
 The Dirty Bird is a Late night Cocktail & Gin Lounge in located in Bristol, Clifton Area just situated off Kind's Road. 
 This website is inteded for people who seek out late night cocktail and Gin lounge. The website will feature a home page, drinks, bookings and contact pages. Within these pages the user can navigate through with ease and gain all information about the bar as they require.
+
+## Features 
+
 As you navigate through the home page the user will find imagary of the bar, a section for upcoming events, a small gallery of images and a contact and opening times section. The events section will keep the user informed of any upcoming events happening within the venue. The gallery will be a responsive and interactive gallery that will feture a rollover animation and the contact section will different means of getting in contact with the Venue. They can do this via address, email and a small contact form for any other enquiries. 
 Moving on to the Drinks page, the user will be able to see what is on offer at this venue. I will have this laid out as a simple menu with discriptions of drinks.
 Bookings page will have a Form for conacting the venue about any specific booking equiries that the user may have wether it be about booking a table or the venue as a whole, cocktail master classes or any other events they may need.
 The last page which is a contact page will feature the address and with an interactive map, and again a small conact form which they will be able to get in contact with the venue for any questions they need answering.
-
-
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
