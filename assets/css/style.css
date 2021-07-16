@@ -16,14 +16,10 @@ body {
 
 .logo-container {
     text-align: center;
+    /* padding-top: 10px; */
 }
 .logo-img {
     width: 10%;
-}
-
-#logo-text {
-    font-family: abril fatface, sans-serif;
-    font-size: 250%;
 }
 
 h1 {
