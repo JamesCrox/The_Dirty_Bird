@@ -35,104 +35,74 @@
         </div>
     </header>
 
-    <section id="bar-outer">
-        <div id="bar-image"></div>
-        <div id="bar-text">
-            <h1>Welcome to The Dirty Bird, Bristol</h1>
-            <p> <em> A fabulous new Gin & Cocktail Lounge open in the heart of Clifton Village</em></p>
+    <section class="booking-outer">
+        <div class="booking-image"></div>
+        <div class="booking-text">
+            <h1>Book Now</h1>
+            <p> <em>Complete the form to send a enquiry about booking in with us!</em></p>
+        </div>
+        <div>
+            <form class="booking-form" action="">
+                <h1>Booking Enquiry</h1>
 
+                <div class="form-row">
+
+                <label for="fname"></label>
+                <input type="text" id="fname" placeholder="First Name" required>
+    
+                <label for="lname"></label>
+                <input type="text" id="lname" placeholder="Last Name" required>
+
+                </div>
+
+                <div class="form-row">
+
+                    <label for="people"></label>
+                    <input type="text" id="people" placeholder="No. of People" min="1" max="6" required>
+        
+                    <label for="telephone"></label>
+                    <input type="text" id="telephone" placeholder="Telephone Number" required>
+    
+                    </div>
+
+                <div class="form-row">
+                    <select name="days" id="day-select" required>
+                        <option value="day-select">Select Day</option>
+                        <option value="monday>">Monday</option>
+                        <option value="uesday>">Tuesday</option>
+                        <option value="wednesday>">Wednesday</option>
+                        <option value="thurdsay>">Thurdsay</option>
+                        <option value="friday>">Friday</option>
+                        <option value="saturday>">Saturday</option>
+                        <option value="sunday>">Sunday</option>
+                    </select>
+                    
+                    <select name="hours " id="time-select">
+                        <option value="select-time">Select Time</option>
+                        <option value="4">16:00</option>
+                        <option value="5">17:00</option>
+                        <option value="6">18:00</option>
+                        <option value="7">19:00</option>
+                        <option value="8">20:00</option>
+                        <option value="9">21:00</option>
+                        
+
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="submit">
+                    </div>
+                
+
+            </form>
         </div>
     </section>
 
-    <section>
-        <div id="events">
-            <div id="events-text">
-                <h1>Upcoming Events</h1>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="gallery">
-            <div class="gallery-column">
-                <img src="/assets/images/barcocktails.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/barcocktails2.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/cocktail1.JPG" alt="" class="gallery-image">
-            </div>
-
-            <div class="gallery-column">
-                <img src="/assets/images/dbgin2.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/dbgin3.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/dbwine.jpg" alt="" class="gallery-image">
-            </div>
-            <div class="gallery-column">
-                <img src="/assets/images/dbgin2.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/dbgin3.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/dbwine.jpg" alt="" class="gallery-image">
-            </div>
-            <div class="gallery-column">
-                <img src="/assets/images/dbgin2.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/dbgin3.jpg" alt="" class="gallery-image">
-
-                <img src="/assets/images/dbwine.jpg" alt="" class="gallery-image">
-            </div>
-        </div>
+    <section class="form">
+        
 
     </section>
 
-    <section>
-        <div class="footer-info">
-            <div class="opening-times-container">
-                <span id="open-times">
-                    <h1>opening times</h1>
-                    <table>
-                        <tr>
-                            <th>Monday</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                        <tr>
-                            <th>Tuesday</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                        <tr>
-                            <th>Wednesday</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                        <tr>
-                            <th>Thurdsay</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                        <tr>
-                            <th>Friday</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                        <tr>
-                            <th>Saturday</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                        <tr>
-                            <th>Sunday</th>
-                            <th>4pm - 10pm</th>
-                        </tr>
-                    </table>
-                </span>
-            </div>
-            <div class="footer-content-container">
-                <span id="footer-contact">
-                    <h1>contact us</h1>
-                    <p><i class="fas fa-map-marker-alt"></i> 10 King's Rd, Clifton, Bristol BS8 4AB</p>
-                    <p><i class="far fa-envelope"></i> thedirtybirdenquiries@outlook.com</p>
-                </span>
-            </div>
-        </div>
-    </section>
     <footer>
         <ul class="social">
             <li>

@@ -59,7 +59,7 @@ nav a:hover {
 /* bar background */
 
 #bar-outer {
-    height: 800px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -80,7 +80,7 @@ nav a:hover {
     padding-top: 40px;
     padding-left: 10px;
 
-    top:30px;
+    top: 30px;
     left: 150px;
 
     position: absolute;
@@ -180,4 +180,34 @@ nav a:hover {
 
 .drinks-text {
     font-family: abril fatface, sans-serif;
+}
+
+/* Bookings page */
+
+.booking-form {
+    width: 80%;
+    height: 250px;
+    /* background-color:  rgba(17, 35, 38, 0.5); */
+
+    background-color:  rgba(245, 217, 68, 0.3);
+    padding-top: 40px;
+    padding-left: 10px;
+
+    top: 30px;
+    left: 150px;
+
+    position: absolute;
+}
+.booking-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.booking-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/DBbackground.png') no-repeat center center;
+    opacity: 85%;
 }
