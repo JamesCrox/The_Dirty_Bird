@@ -29,6 +29,10 @@ h1 {
 
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 a {
     text-decoration: none;
     color: #F2F2F2;
@@ -186,6 +190,9 @@ nav a:hover {
 
 .drinks-text {
     font-family: abril fatface, sans-serif;
+}
+.drinks-menu {
+    text-align: justify;
 }
 
 /* Bookings page */
