@@ -83,7 +83,6 @@ nav a:hover {
     height: 250px;
     background-color: rgba(17, 35, 38, 0.5);
 
-    /* background-color:  rgba(245, 217, 68, 0.3); */
     padding-top: 40px;
     padding-left: 10px;
 
@@ -131,68 +130,44 @@ nav a:hover {
     transition: .3s;
 }
 
+
+/* opening times and conact info */
+
+.opening-contact-container {
+    float: left;
+    width: 100%;
+    margin: 25px;
+
+}
+
+.opening-contact-child {
+    float: left;
+    background-color: rgba(245, 217, 68, 0.2);
+    border-radius: 5px;
+    padding: 25px;  
+    
+}
+
 /* Footer */
 
-.footer-info {
-    width: 100%;
-    height: 350px;
-    background-color: rgba(245, 217, 68, 0.2);
-}
-
-.opening-times-container {
-    width: 250px;
-    height: 250px;
-    background-color: #112326;
-    float: left;
-    padding: 25px;
-    margin: 25px;
-    display: inline;
-}
-
-.footer-content-container {
-    width: 250px;
-    height: 250px;
-    background-color: #112326;
-    float: right;
-    padding: 25px;
-    margin: 25px;
-}
-
-#open-times {
-    padding: 50px 20px 50px 20px;
-}
-
-
-#footer-contact {
-    padding: 50px 20px 50px 20px;
-
-}
-
-.social {
+.social-copyright {
     text-align: center;
+    margin: 0 auto;
 }
 
-.social>li {
+.social > li {
     display: inline;
 }
 
 .social i {
     font-size: 150%;
-    margin: 5px;
 }
 
-#copyright {
-    text-align: center;
-    padding-bottom: 10px;
-}
 
 /* Drinks page content */
 
 .drinks-text {
     font-family: abril fatface, sans-serif;
-}
-.drinks-menu {
-    text-align: justify;
 }
 
 /* Bookings page */
