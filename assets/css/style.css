@@ -136,16 +136,14 @@ nav a:hover {
 .opening-contact-container {
     float: left;
     width: 100%;
-    margin: 25px;
-
 }
 
 .opening-contact-child {
     float: left;
     background-color: rgba(245, 217, 68, 0.2);
     border-radius: 5px;
-    padding: 25px;  
-    
+    padding: 25px;
+    margin: 30px;    
 }
 
 /* Footer */
@@ -155,7 +153,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.social > li {
+.social>li {
     display: inline;
 }
 
@@ -210,6 +208,7 @@ nav a:hover {
     text-align: center;
     padding-top: 25px;
 }
+
 .contact-form {
     padding: 25px;
 }
