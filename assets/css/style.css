@@ -166,21 +166,18 @@ nav a:hover {
 /* Drinks page content */
     .drinks-menu {
         text-align: center;
-        /* margin: 20px; */
         padding-top: 10px;
     }
 
 
-    .drinks-menu drinks {
-        text-align: left;
-    }
     #drinks > h2 {
         margin-bottom: 50px;
     }
 
     .drinks-menu-container table {
-        text-align: center;
+        /* text-align: center; */
         width: 100%;
+        max-width: 80%;
     }
 
     hr {
@@ -189,11 +186,16 @@ nav a:hover {
 
         margin: 0 auto;
     }
-    .peroni {
-        height: 250px;
+    .drinks-img {
+        margin-left: 0;
         width: 250px;
         border-radius: 50%;
-        float: right;
+        left: 0;
+        position: absolute;
+    }
+
+    .drinks-menu-container h5 {
+       font-style: italic;
     }
  
 
