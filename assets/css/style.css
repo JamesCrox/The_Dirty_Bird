@@ -76,18 +76,18 @@ nav a:hover {
     width: 100%;
     background: url('../images/dbinside9.jpg') no-repeat center center;
     opacity: 85%;
+    position: relative;
 }
 
 #bar-text {
-    width: 400px;
+    width: 300px;
     height: 250px;
     background-color: rgba(17, 35, 38, 0.5);
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 20px;
 
     top: 30px;
-    left: 150px;
+    left: 50px;
 
     position: absolute;
 }
@@ -143,30 +143,59 @@ nav a:hover {
     background-color: rgba(245, 217, 68, 0.2);
     border-radius: 5px;
     padding: 25px;
-    margin: 30px;    
+    margin: 30px;
 }
 
 /* Footer */
 
 .social-copyright {
     text-align: center;
-    margin: 0 auto;
+    margin: 30px;
 }
 
 .social>li {
+    padding: 0 50px 0 50px;
     display: inline;
 }
 
 .social i {
-    font-size: 150%;
+    font-size: 200%;
 }
 
 
 /* Drinks page content */
+    .drinks-menu {
+        text-align: center;
+        /* margin: 20px; */
+        padding-top: 10px;
+    }
 
-.drinks-text {
-    font-family: abril fatface, sans-serif;
-}
+
+    .drinks-menu drinks {
+        text-align: left;
+    }
+    #drinks > h2 {
+        margin-bottom: 50px;
+    }
+
+    .drinks-menu-container table {
+        text-align: center;
+        width: 100%;
+    }
+
+    hr {
+        border-top: 1px solid #3a3a3a;
+        width: 50%;
+
+        margin: 0 auto;
+    }
+    .peroni {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        float: right;
+    }
+ 
 
 /* Bookings page */
 
@@ -217,4 +246,17 @@ nav a:hover {
     width: 15%;
     height: 25px;
     margin: 5px 0 20px 0;
+}
+
+/* Media Queries responsive code */
+
+@media screen and (max-width: 950px) {
+
+    .menu nav {
+        text-align: center;
+    }
+    
+    #bar-text {
+        left: 0;
+    }
 }
