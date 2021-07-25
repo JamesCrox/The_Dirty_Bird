@@ -202,16 +202,14 @@ nav a:hover {
 /* Bookings page */
 
 .booking-form {
-    width: 80%;
+    width: 720px;
     height: 250px;
-    /* background-color:  rgba(17, 35, 38, 0.5); */
 
     background-color: rgba(245, 217, 68, 0.3);
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 25px;
 
     top: 30px;
-    left: 150px;
+    left: 100px;
 
     position: absolute;
 }
@@ -226,7 +224,7 @@ nav a:hover {
 .booking-image {
     height: 800px;
     width: 100%;
-    background: url('../images/DBbackground.png') no-repeat center center;
+    background: url('../images/DBbackground.jpg') no-repeat center center;
     opacity: 85%;
 }
 
@@ -245,9 +243,24 @@ nav a:hover {
 }
 
 .contact-form-text {
-    width: 15%;
+    width: 300px;
     height: 25px;
     margin: 5px 0 20px 0;
+}
+
+.contact-button {
+    border: #F2F2F2 1px solid;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fafafa;
+}
+
+.contact-button:hover {
+    background-color: #f2f2f2;
+    color: black;
 }
 
 /* Media Queries responsive code */
@@ -260,5 +273,10 @@ nav a:hover {
     
     #bar-text {
         left: 0;
+    }
+
+    .booking-form {
+        left: 25px;
+        width: 275px;
     }
 }
