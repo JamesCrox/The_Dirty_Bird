@@ -39,6 +39,10 @@ hr {
     margin: 0 auto;
 }
 
+textarea {
+    resize: none;
+  }
+
 /* logo and header */
 
 .logo-container {
@@ -46,7 +50,7 @@ hr {
 }
 
 .logo-img {
-    width: 170px;
+    width: 150px;
 }
 
 /* nav bar */
@@ -167,12 +171,15 @@ hr {
 }
 
 .social>li {
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
     display: inline;
 }
 
 .social i {
     font-size: 200%;
+}
+.copyright {
+    margin: 15px 0;
 }
 
 /* Drinks page content */
@@ -217,8 +224,8 @@ hr {
 /* Bookings page */
 
 .booking-form {
-    width: 720px;
-    background-color: rgba(245, 217, 68, 0.3);
+    width: 50%;
+    background-color: rgba(245, 217, 68, 0.5);
     padding: 25px;
     top: 30px;
     left: 100px;
@@ -236,14 +243,15 @@ hr {
     height: 800px;
     width: 100%;
     background: url('../images/DBbackground.jpg') no-repeat center center;
-    opacity: 85%;
 }
 
 .booking-text-box {
-    border: none;
-    width: 300px;
+    border: 0;
+    border-radius: 2px;
+    width: 275px;
     height: 25px;
-    margin: 15px 0 25px;
+    margin-top: 25px;
+    padding-left: 5px;
 }
 
 #day-select,
@@ -287,6 +295,7 @@ hr {
     width: 300px;
     height: 25px;
     margin: 5px 0 20px 0;
+    padding-left: 5px;
 }
 
 .contact-button {
@@ -314,15 +323,18 @@ hr {
         width: 95%;
     }
 
+    /* bookings page form */
+    .booking-form {
+        left: 25px;
+        width: 275px;
+    }
+
 }
 
 @media screen and (max-width: 950px) {
 
     /* booking form on bookings page */
-    .booking-form {
-        left: 25px;
-        width: 275px;
-    }
+   
 
     .drinks-menu-container {
         text-align: center;
