@@ -48,20 +48,20 @@
                 <div class="form-row">
 
                 <label for="fname"></label>
-                <input type="text" id="fname" placeholder="First Name" required>
+                <input class="booking-text-box" type="text" id="fname" placeholder="First Name" required>
     
                 <label for="lname"></label>
-                <input type="text" id="lname" placeholder="Last Name" required>
+                <input class="booking-text-box" type="text" id="lname" placeholder="Last Name" required>
 
                 </div>
 
                 <div class="form-row">
 
                     <label for="people"></label>
-                    <input type="text" id="people" placeholder="No. of People" min="1" max="6" required>
+                    <input class="booking-text-box" type="text" id="people" placeholder="No. of People" min="1" max="6" required>
         
                     <label for="telephone"></label>
-                    <input type="text" id="telephone" placeholder="Telephone Number" required>
+                    <input class="booking-text-box" type="text" id="telephone" placeholder="Telephone Number" required>
     
                     </div>
 
@@ -89,8 +89,11 @@
 
                     </select>
                 </div>
+                <div>
+                    <textarea name="notes" id="notes" placeholder="Notes" cols="30" rows="10"></textarea>
+                </div>
                 <div class="form-row">
-                    <input type="submit">
+                    <input type="submit" value="Send Enquiry" class="booking-button">
                     </div>
                 
 
