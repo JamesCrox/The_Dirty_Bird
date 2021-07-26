@@ -13,16 +13,6 @@ body {
     background-color: #112326;
 }
 
-/* logo and header */
-
-.logo-container {
-    text-align: center;
-}
-
-.logo-img {
-    width: 170px;
-}
-
 h1 {
     text-transform: uppercase;
     font-family: abril fatface, sans-serif;
@@ -36,6 +26,27 @@ h2 {
 a {
     text-decoration: none;
     color: #F2F2F2;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 50%;
+
+    margin: 0 auto;
+}
+
+/* logo and header */
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-img {
+    width: 170px;
 }
 
 /* nav bar */
@@ -52,10 +63,6 @@ a {
     text-transform: uppercase;
     display: inline-block;
     padding-bottom: 15px;
-}
-
-nav a:hover {
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .active {
@@ -83,12 +90,9 @@ nav a:hover {
     width: 300px;
     height: 250px;
     background-color: rgba(17, 35, 38, 0.5);
-
     padding: 20px;
-
     top: 30px;
     left: 50px;
-
     position: absolute;
 }
 
@@ -105,11 +109,13 @@ nav a:hover {
     padding: 20px;
     text-align: center;
 }
+
 .whatson-text {
     display: inline;
     width: 25px;
     height: 25px;
 }
+
 .event-img {
     width: 250px;
 }
@@ -137,7 +143,6 @@ nav a:hover {
     width: 100%;
     transition: .3s;
 }
-
 
 /* opening times and conact info */
 
@@ -170,51 +175,39 @@ nav a:hover {
     font-size: 200%;
 }
 
-
 /* Drinks page content */
+
 .drinks-menu {
     text-align: center;
     margin-right: 25px;
 }
-
 
 #drinks>h2 {
     margin-bottom: 50px;
 }
 
 .drinks-menu-container table {
+    word-spacing: 1px;
+    letter-spacing: 1px;
     width: 50%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 50%;
-
     margin: 0 auto;
 }
 
 .drinks-img-left {
     width: 250px;
     height: 250px;
-
     border-radius: 50%;
-
     left: 25px;
-
     position: absolute;
 }
 
 .drinks-img-right {
     width: 250px;
     height: 250px;
-
     border-radius: 50%;
-
     right: 25px;
-    margin-right: 0;
-
     position: absolute;
+
 }
 
 .drinks-menu-container h5 {
@@ -225,13 +218,10 @@ hr {
 
 .booking-form {
     width: 720px;
-
     background-color: rgba(245, 217, 68, 0.3);
     padding: 25px;
-
     top: 30px;
     left: 100px;
-
     position: absolute;
 }
 
@@ -249,23 +239,24 @@ hr {
     opacity: 85%;
 }
 
-.booking-text-box{
+.booking-text-box {
     border: none;
     width: 300px;
     height: 25px;
     margin: 15px 0 25px;
 }
 
-#day-select, #time-select {
+#day-select,
+#time-select {
     width: 200px;
     height: 25px;
-    margin: 15px 0 25px;
+    margin: 15px 0 25px 0;
 }
 
 .booking-button {
     border: #F2F2F2 1px solid;
     border-radius: 2px;
-    padding: 12px 30px 12px 30px;
+    padding: 12px 30px;
     text-align: center;
     font-size: 100%;
     background-color: rgba(0, 0, 0, 0.0);
@@ -275,7 +266,7 @@ hr {
 .booking-button:hover {
     background-color: #f2f2f2;
     color: #112326;
-    
+
 }
 
 /* Contact page content */
@@ -315,19 +306,24 @@ hr {
 
 /* Media Queries responsive code */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 450px) {
 
     /* text box on home page */
     #bar-text {
         left: 0;
+        width: 95%;
     }
+
+}
+
+@media screen and (max-width: 950px) {
 
     /* booking form on bookings page */
     .booking-form {
         left: 25px;
         width: 275px;
     }
-    
+
     .drinks-menu-container {
         text-align: center;
         margin: 0 auto;
@@ -338,10 +334,12 @@ hr {
 @media screen and (max-width: 1450px) {
 
     .drinks-img-right {
+        left: 15px;
         position: relative;
     }
 
     .drinks-img-left {
+        left: 10px;
         position: relative;
     }
 
