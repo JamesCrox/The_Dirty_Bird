@@ -41,7 +41,7 @@ hr {
 
 textarea {
     resize: none;
-  }
+}
 
 /* logo and header */
 
@@ -178,6 +178,7 @@ textarea {
 .social i {
     font-size: 200%;
 }
+
 .copyright {
     margin: 15px 0;
 }
@@ -246,6 +247,7 @@ textarea {
 }
 
 .booking-text-box {
+    font-family: open sans, sans-serif;
     border: 0;
     border-radius: 2px;
     width: 275px;
@@ -258,10 +260,11 @@ textarea {
 #time-select {
     width: 200px;
     height: 25px;
-    margin: 15px 0 25px 0;
+    margin: 25px 0;
 }
 
 .booking-button {
+    margin-top: 25px;
     border: #F2F2F2 1px solid;
     border-radius: 2px;
     padding: 12px 30px;
@@ -279,6 +282,11 @@ textarea {
 
 /* Contact page content */
 
+#your-message {
+    font-family: open sans, sans-serif;
+    padding-left: 5px;
+}
+
 .contact-container {
     background-color: rgba(245, 217, 68, 0.2);
     width: 100%;
@@ -292,16 +300,18 @@ textarea {
 }
 
 .contact-form-text {
+    font-family: open sans, sans-serif;
     width: 300px;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin-bottom: 25px;
     padding-left: 5px;
 }
 
 .contact-button {
     border: #F2F2F2 1px solid;
     border-radius: 2px;
-    padding: 12px 30px 12px 30px;
+    margin-top: 25px;
+    padding: 12px 30px;
     text-align: center;
     font-size: 100%;
     background-color: rgba(0, 0, 0, 0.0);
@@ -334,7 +344,7 @@ textarea {
 @media screen and (max-width: 950px) {
 
     /* booking form on bookings page */
-   
+
 
     .drinks-menu-container {
         text-align: center;
