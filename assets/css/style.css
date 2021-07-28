@@ -145,7 +145,7 @@ textarea {
 .gallery-image {
     display: block;
     width: 100%;
-    transition: .3s;
+    transition: .2s;
 }
 
 /* opening times and conact info */
