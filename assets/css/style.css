@@ -187,18 +187,18 @@ textarea {
 
 .drinks-menu {
     text-align: center;
-    margin-right: 25px;
-}
-
-#drinks>h2 {
-    margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 .drinks-menu-container table {
-    word-spacing: 1px;
+    text-align:left;
     letter-spacing: 1px;
     width: 50%;
     margin: 0 auto;
+}
+
+.drinks-menu-container #price {
+    text-align: right;
 }
 
 .drinks-img-left {
