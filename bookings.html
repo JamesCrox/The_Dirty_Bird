@@ -14,27 +14,26 @@
     <header>
         <div class="logo-container">
             <a href="index.html">
-                <img src="assets/images/DBlogo.png" alt="dirty bird logo" class="logo-img">
+                <img src="assets/images/DBlogo.png" alt="The dirty bird logo" class="logo-img">
             </a>
-            <nav>
+            <nav aria-label="Navigation bar">
                 <ul class="menu">
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html" aria-label="Go to the home page">Home</a>
                     </li>
                     <li>
-                        <a href="drinks.html">Drinks</a>
+                        <a href="drinks.html" aria-label="Go to the drinks menu page">Drinks</a>
                     </li>
                     <li>
-                        <a href="bookings.html">Bookings</a>
+                        <a href="bookings.html" aria-label="Go to the bookings page" class="active">Bookings</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html" aria-label="Go to the contact page">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <section class="booking-outer">
         <div class="booking-image"></div>
         <div class="booking-text">
@@ -44,22 +43,19 @@
         <div>
             <form class="booking-form" action="">
                 <h1>Booking Enquiry</h1>
-
                 <div class="form-row">
                     <label for="fname"></label>
                     <input class="booking-text-box" type="text" id="fname" placeholder="First Name" required>
                     <label for="lname"></label>
                     <input class="booking-text-box" type="text" id="lname" placeholder="Last Name" required>
                 </div>
-
                 <div class="form-row">
                     <label for="people"></label>
-                    <input class="booking-text-box" type="text" id="people" placeholder="No. of People" min="1" max="6" required>
+                    <input class="booking-text-box" type="text" id="people" placeholder="No. of People" min="1" max="6"
+                        required>
                     <label for="telephone"></label>
                     <input class="booking-text-box" type="text" id="telephone" placeholder="Telephone Number" required>
-
                 </div>
-
                 <div class="form-row">
                     <select name="days" id="day-select" required>
                         <option value="day-select">Select Day</option>
@@ -71,7 +67,6 @@
                         <option value="saturday>">Saturday</option>
                         <option value="sunday>">Sunday</option>
                     </select>
-
                     <select name="hours " id="time-select">
                         <option value="select-time">Select Time</option>
                         <option value="4">16:00</option>
@@ -80,8 +75,6 @@
                         <option value="7">19:00</option>
                         <option value="8">20:00</option>
                         <option value="9">21:00</option>
-
-
                     </select>
                 </div>
                 <div>
@@ -90,26 +83,20 @@
                 <div class="form-row">
                     <input type="submit" value="Send Enquiry" class="booking-button">
                 </div>
-
-
             </form>
         </div>
     </section>
-
-    <section class="form">
-
-
-    </section>
-
     <footer>
         <div class="social-copyright">
             <ul class="social">
                 <li>
-                    <a href="https://www.instagram.com/bristolsdirtybird/" target="_blank"><i
+                    <a href="https://www.instagram.com/bristolsdirtybird/"
+                        aria-label="Link to The dirty bird instagram account. Opens in a new page." target="_blank"><i
                             class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/bristolsdirtybird/" target="_blank"><i
+                    <a href="https://www.facebook.com/bristolsdirtybird/"
+                        aria-label="Link to The dirty bird Facebook account. Opens in a new page." target="_blank"><i
                             class="fab fa-facebook-square"></i></a>
                 </li>
             </ul>

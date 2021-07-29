@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,36 +8,34 @@
     <title>The Dirty Bird, Bristol</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <header>
         <div class="logo-container">
             <a href="index.html">
-                <img src="assets/images/DBlogo.png" alt="dirty bird logo" class="logo-img">
+                <img src="assets/images/DBlogo.png" alt="The dirty bird logo" class="logo-img">
             </a>
-            <nav>
+            <nav aria-label="Navigation bar">
                 <ul class="menu">
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html" aria-label="Go to the home page">Home</a>
                     </li>
                     <li>
-                        <a href="drinks.html">Drinks</a>
+                        <a href="drinks.html" aria-label="Go to the drinks menu page" class="active">Drinks</a>
                     </li>
                     <li>
-                        <a href="bookings.html">Bookings</a>
+                        <a href="bookings.html" aria-label="Go to the bookings page">Bookings</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html" aria-label="Go to the contact page">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <section class="drinks-menu">
         <div class="drinks-menu-container">
             <div class="cocktails-containter">
-                <h1>Summer Time Menu</h1>
+                <h1>Summer Time Drinks Menu</h1>
                 <br>
                 <div id="drinks, cocktails">
                     <table>
@@ -47,7 +44,8 @@
                             <hr>
                         </tr>
                         <tr>
-                            <img class="drinks-img-left" src="assets/images/cocktail1.JPG" alt="">
+                            <img class="drinks-img-left" src="assets/images/cocktail1.JPG"
+                                alt="Picture of Brockmans Blueberry Bramble">
                         </tr>
                         <tr>
                             <td>Paloma</td>
@@ -104,20 +102,19 @@
                                 <h5>Alcoholic berry Ice Tea</h5>
                             </td>
                         </tr>
-
                     </table>
                     <br>
                 </div>
                 <div id="drinks gin-and-tonic">
                     <table>
                         <tr>
-
                             <h2>Gin & Tonics <i class="fas fa-cocktail"></i></h2>
                             <hr>
                             </th>
                         </tr>
                         <tr>
-                            <img class="drinks-img-right" src="assets/images/dbgin.jpg" alt="">
+                            <img class="drinks-img-right" src="assets/images/dbgin.jpg"
+                                alt="Picture of a gin and tonic.">
                         </tr>
                         <tr>
                             <td>Dirty Bird Gin</td>
@@ -151,7 +148,6 @@
                         </tr>
                     </table>
                     <br>
-
                 </div>
                 <div id="drinks wine">
                     <table>
@@ -160,34 +156,35 @@
                             <hr>
                         </tr>
                         <tr>
-                            <img class="drinks-img-left" src="assets/images/dbwine.jpg" alt="">
+                            <img class="drinks-img-left" src="assets/images/dbwine.jpg"
+                                alt="Bottle of wine sitting next to a poured medium glass of wine.">
                         </tr>
                         <tr>
                             <td></td>
-                            <td id="price">175ml</td>
-                            <td id="price">250ml</td>
-                            <td id="price">Bottle</td>
+                            <th id="price">175ml</th>
+                            <th id="price">250ml</th>
+                            <th id="price">Bottle</th>
                         </tr>
                         <tr>
                             <td>Sauvigon Blanc - <h5>Cloud Factory, NZ</h5>
                             </td>
-                            <td id="price">£6.5</td>
-                            <td id="price">£9</td>
-                            <td id="price">£25</td>
+                            <td id="price" aria-label="Sauvigon Blanc 175ml glass price">£6.5</td>
+                            <td id="price" aria-label="Sauvigon Blanc 250ml glass price">£9</td>
+                            <td id="price" aria-label="Sauvigon Blanc bottle price">£25</td>
                         </tr>
                         <tr>
                             <td>Pinot Noir - <h5>Rothschild, France</h5>
                             </td>
-                            <td id="price">£6.5</td>
-                            <td id="price">£9</td>
-                            <td id="price">£25</td>
+                            <td id="price" aria-label="Pinot Noir 175ml glass price">£6.5</td>
+                            <td id="price" aria-label="Pinot Noir 250ml glass price">£9</td>
+                            <td id="price" aria-label="Pinot Noir bottle price">£25</td>
                         </tr>
                         <tr>
                             <td>Pinot Grigio Rosato - <h5> Mirabello, Italy</h5>
                             </td>
-                            <td id="price">£6.5</td>
-                            <td id="price">£9</td>
-                            <td id="price">£25</td>
+                            <td id="price" aria-label="Pinot Grigio Rosato 175ml glass price">£6.5</td>
+                            <td id="price" aria-label="Pinot Grigio Rosato 250ml glass price">£9</td>
+                            <td id="price" aria-label="Pinot Grigio Rosato bottle price">£25</td>
                         </tr>
                         <tr>
                             <td>
@@ -224,7 +221,7 @@
                             <hr>
                         </tr>
                         <tr>
-                            <img class="drinks-img-right" src="assets/images/dbperoni.jpg" alt="">
+                            <img class="drinks-img-right" src="assets/images/dbperoni.jpg" alt="Pint of peroni.">
                         </tr>
                         <tr>
                             <td>
@@ -283,16 +280,17 @@
             </div>
         </div>
     </section>
-
     <footer>
         <div class="social-copyright">
             <ul class="social">
                 <li>
-                    <a href="https://www.instagram.com/bristolsdirtybird/" target="_blank"><i
+                    <a href="https://www.instagram.com/bristolsdirtybird/"
+                        aria-label="Link to The dirty bird instagram account. Opens in a new page." target="_blank"><i
                             class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/bristolsdirtybird/" target="_blank"><i
+                    <a href="https://www.facebook.com/bristolsdirtybird/"
+                        aria-label="Link to The dirty bird Facebook account. Opens in a new page." target="_blank"><i
                             class="fab fa-facebook-square"></i></a>
                 </li>
             </ul>
