@@ -14,7 +14,7 @@
     <header>
         <div class="logo-container">
             <a href="index.html">
-                <img src="assets/images/DBlogo.png" alt="The dirty bird logo" class="logo-img">
+                <img src="assets/images/DBlogo.png" alt="The dirty bird logo which links to home page" class="logo-img">
             </a>
             <nav aria-label="Navigation bar">
                 <ul class="menu">
@@ -41,44 +41,44 @@
             <p> <em>Complete the form to send a enquiry about booking in with us!</em></p>
         </div>
         <div>
-            <form class="booking-form" action="">
+            <form target="_blank" class="booking-form" action="https://formdump.codeinstitute.net/" method="POST">
                 <h1>Booking Enquiry</h1>
                 <div class="form-row">
                     <label for="fname"></label>
-                    <input class="booking-text-box" type="text" id="fname" placeholder="First Name" required>
+                    <input class="booking-text-box" name="first name" type="text" id="fname" placeholder="First Name" required>
                     <label for="lname"></label>
-                    <input class="booking-text-box" type="text" id="lname" placeholder="Last Name" required>
+                    <input class="booking-text-box" name="last name" type="text" id="lname" placeholder="Last Name" required>
                 </div>
                 <div class="form-row">
                     <label for="people"></label>
-                    <input class="booking-text-box" type="text" id="people" placeholder="No. of People" min="1" max="6"
+                    <input class="booking-text-box" name="number of people" type="text" id="people" placeholder="No. of People" min="1" max="6"
                         required>
                     <label for="telephone"></label>
-                    <input class="booking-text-box" type="text" id="telephone" placeholder="Telephone Number" required>
+                    <input class="booking-text-box" name="telephone number" type="text" id="telephone" placeholder="Telephone Number" required>
                 </div>
                 <div class="form-row">
-                    <select name="days" id="day-select" required>
+                    <select name="day of booking" id="day-select" required>
                         <option value="day-select">Select Day</option>
-                        <option value="monday>">Monday</option>
-                        <option value="uesday>">Tuesday</option>
-                        <option value="wednesday>">Wednesday</option>
-                        <option value="thurdsay>">Thurdsay</option>
-                        <option value="friday>">Friday</option>
-                        <option value="saturday>">Saturday</option>
-                        <option value="sunday>">Sunday</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thurdsay">Thurdsay</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
                     </select>
-                    <select name="hours " id="time-select">
+                    <select name="time selected " id="time-select">
                         <option value="select-time">Select Time</option>
-                        <option value="4">16:00</option>
-                        <option value="5">17:00</option>
-                        <option value="6">18:00</option>
-                        <option value="7">19:00</option>
-                        <option value="8">20:00</option>
-                        <option value="9">21:00</option>
+                        <option value="4pm">16:00</option>
+                        <option value="5pm">17:00</option>
+                        <option value="6pm">18:00</option>
+                        <option value="7pm">19:00</option>
+                        <option value="8pm">20:00</option>
+                        <option value="9pm">21:00</option>
                     </select>
                 </div>
                 <div>
-                    <textarea name="notes" id="your-message" placeholder="Notes" cols="38" rows="10" fixed></textarea>
+                    <textarea name="your booking enquiry message" id="your-message" placeholder="Notes" cols="38" rows="10" fixed></textarea>
                 </div>
                 <div class="form-row">
                     <input type="submit" value="Send Enquiry" class="booking-button">

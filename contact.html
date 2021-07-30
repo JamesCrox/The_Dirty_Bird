@@ -14,58 +14,52 @@
     <header>
         <div class="logo-container">
             <a href="index.html">
-                <img src="assets/images/DBlogo.png" alt="dirty bird logo" class="logo-img">
+                <img src="assets/images/DBlogo.png" alt="The dirty bird logo which links to home page" class="logo-img">
             </a>
             <nav>
                 <ul class="menu">
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html" aria-label="Go to the home page">Home</a>
                     </li>
                     <li>
-                        <a href="drinks.html">Drinks</a>
+                        <a href="drinks.html" aria-label="Go to the drinks menu page">Drinks</a>
                     </li>
                     <li>
-                        <a href="bookings.html">Bookings</a>
+                        <a href="bookings.html" aria-label="Go to the bookings page">Bookings</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <section class="contact-container">
         <div class="contact-info">
             <div class="contact-info-details">
                 <h1>contact us</h1>
             </div>
-            <form class="contact-form" action="">
+            <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                 <div class="form-row">
                     <label for="name"></label>
-                    <input type="text" id="name" placeholder="Name" class="contact-form-text" required>
+                    <input type="text" id="name" name="full-name" placeholder="Name" class="contact-form-text" required>
                 </div>
-
                 <div class="form-row">
-
                     <label for="number"></label>
-                    <input type="number" id="number" placeholder="Number" class="contact-form-text" required>
+                    <input type="number" id="number" name="telephone-number" placeholder="Number" class="contact-form-text" required>
                 </div>
-
                 <div class="form-row">
                     <label for="email"></label>
-                    <input type="email" id="email" placeholder="Email" class="contact-form-text" required>
+                    <input type="email" id="email" name="email-address" placeholder="Email" class="contact-form-text" required>
                 </div>
-
                 <div class="form-row">
-                    <textarea name="your-message" placeholder="Your Message" id="your-message" cols="45" rows="10" required></textarea>
+                    <textarea name="your-message" placeholder="Your Message" id="your-message" cols="45" rows="10"
+                        required></textarea>
                 </div>
                 <input type="submit" value="Send" class="contact-button">
-
             </form>
         </div>
     </section>
-
     <section>
         <div class="location-map">
             <iframe
@@ -73,16 +67,17 @@
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
-
     <footer>
         <div class="social-copyright">
             <ul class="social">
                 <li>
-                    <a href="https://www.instagram.com/bristolsdirtybird/" target="_blank"><i
+                    <a href="https://www.instagram.com/bristolsdirtybird/"
+                        aria-label="Link to The dirty bird instagram account. Opens in a new page." target="_blank"><i
                             class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/bristolsdirtybird/" target="_blank"><i
+                    <a href="https://www.facebook.com/bristolsdirtybird/"
+                        aria-label="Link to The dirty bird Facebook account. Opens in a new page." target="_blank"><i
                             class="fab fa-facebook-square"></i></a>
                 </li>
             </ul>

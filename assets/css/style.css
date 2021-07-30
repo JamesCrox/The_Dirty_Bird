@@ -16,7 +16,6 @@ body {
 h1 {
     text-transform: uppercase;
     font-family: 'abril fatface', sans-serif;
-
 }
 
 h2 {
@@ -35,7 +34,6 @@ nav a:hover {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 60%;
-
     margin: 0 auto;
 }
 
@@ -326,6 +324,28 @@ textarea {
     background-color: #f2f2f2;
     color: black;
 }
+
+/* enquiry landing page */
+
+.ty-outer {
+    width: 100%;
+    text-align: center;
+}
+
+.ty-image {
+    width: 100%;
+    height: 850px;
+    background: url('../images/DBlogoborder1.png') no-repeat center center;
+    opacity: 50%;
+}
+
+.ty-text {
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 
 /* Media Queries responsive code */
 
