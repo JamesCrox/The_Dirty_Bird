@@ -3,7 +3,7 @@
 The Dirty Bird is a Late night Cocktail & Gin Lounge in located in Bristol, Clifton Area just situated off Kind's Road. 
 This website is inteded for people who seek out late night cocktail and Gin lounge. The website will feature a home page, drinks, bookings and contact pages. Within these pages the user can navigate through with ease and gain all information about the bar as they require.
 
-![Responsive mockup](/images/dirtybird.png)
+![Responsive mockup](http://https://github.com/JamesCrox/The_Dirty_Bird/blob/master/assets/images/dirtybirdresponisvness.png)
 
 
 ## Features 
