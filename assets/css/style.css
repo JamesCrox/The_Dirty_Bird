@@ -226,7 +226,7 @@ textarea {
     font-style: italic;
 }
 
-div #drinks-heading {
+div .drinks-heading {
     font-weight: bold;
     font-size: 1.5em;
 }
