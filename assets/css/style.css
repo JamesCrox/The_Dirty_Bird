@@ -220,13 +220,22 @@ textarea {
     border-radius: 50%;
     right: 25px;
     position: absolute;
-
 }
 
-.drinks-menu-container h5 {
+.drinks-menu-container em {
+    font-size: 12px;
+}
+
+.drinks-menu-container #bold {
+    text-align: center;
+    font-weight: bold;
     font-style: italic;
 }
 
+div #drinks-heading {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 /* Bookings page */
 
 .booking-form {
@@ -326,6 +335,10 @@ textarea {
 .contact-button:hover {
     background-color: #f2f2f2;
     color: black;
+}
+.location-map iframe {
+    width: 100%;
+    height: 450px;
 }
 
 /* enquiry landing page */
