@@ -81,14 +81,10 @@ While testing throughout the project iI ran into a few bugs that I managed to re
   - Some minor fixes when using the table data and table rows elements. Removed images from inside the table that were causing errors.
   - Improper use of Aria lables - removed 
 
-
-
-
 ### Validator Testing 
 
 - Accessability
   - 100% Accessability Score via Google Lighthouse generated report ![Google Lighthouse](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/lighthousescore.png)
-
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamescrox.github.io%2FThe_Dirty_Bird%2F)
 - CSS
@@ -102,7 +98,6 @@ While testing throughout the project iI ran into a few bugs that I managed to re
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://jamescrox.github.io/The_Dirty_Bird/index.html 
-
 
 ## Credits 
 
