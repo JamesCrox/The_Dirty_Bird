@@ -41,7 +41,7 @@ Click to visit [The Dirty Bird, Bristol](https://jamescrox.github.io/The_Dirty_B
 - __The Footer__ 
 
   - The footer section includes links to the Dirty Bird social media sites, Facebook and Instagram. These links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/footer.png)
 
@@ -106,8 +106,6 @@ The live link can be found here - https://jamescrox.github.io/The_Dirty_Bird/ind
 
 ## Credits 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -117,4 +115,4 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and drinks page were supplied to me by the dirty bird management. All photos were taken by Nic Pedron
+- All photos used on pages were supplied to me by the dirty bird management. All photos were taken by Nic Pedron.

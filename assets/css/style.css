@@ -158,7 +158,7 @@ textarea {
     margin: 25px;
 }
 
-#opening-times #time {
+#opening-times .time {
     text-align: right;
 }
 
