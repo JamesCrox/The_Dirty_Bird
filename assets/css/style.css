@@ -110,8 +110,11 @@ textarea {
     padding: 20px;
     text-align: center;
 }
-
-.whatson-text {
+#whats-on-text em {
+    font-size: 20px;
+    font-weight: bold;
+}
+.whatson-image-container {
     display: inline;
     width: 25px;
     height: 25px;
