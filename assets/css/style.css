@@ -58,7 +58,6 @@ textarea {
     list-style-type: none;
     margin: 0 35px;
 }
-
 .menu {
     color: #f2f2f2;
     letter-spacing: 5px;
@@ -66,7 +65,6 @@ textarea {
     display: inline-block;
     padding-bottom: 15px;
 }
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -79,7 +77,6 @@ textarea {
     overflow: hidden;
     position: relative;
 }
-
 #bar-image {
     height: 800px;
     width: 100%;
@@ -87,7 +84,6 @@ textarea {
     opacity: 85%;
     position: relative;
 }
-
 #bar-text {
     width: 300px;
     height: 250px;
@@ -105,7 +101,6 @@ textarea {
     height: 500px;
     background-color: rgba(245, 217, 68, 0.2);
 }
-
 #events-text {
     padding: 20px;
     text-align: center;
@@ -119,7 +114,6 @@ textarea {
     width: 25px;
     height: 25px;
 }
-
 .event-img {
     width: 250px;
 }
@@ -202,7 +196,7 @@ textarea {
     margin: 0 auto;
 }
 
-.drinks-menu-container #price {
+.drinks-menu-container .price {
     text-align: right;
 }
 
@@ -226,7 +220,7 @@ textarea {
     font-size: 12px;
 }
 
-.drinks-menu-container #bold {
+.drinks-menu-container .bold {
     text-align: center;
     font-weight: bold;
     font-style: italic;
@@ -291,7 +285,6 @@ div #drinks-heading {
 .booking-button:hover {
     background-color: #f2f2f2;
     color: #112326;
-
 }
 
 /* Contact page content */
