@@ -84,7 +84,9 @@ While testing throughout the project iI ran into a few bugs that I managed to re
 ### Validator Testing 
 
 - Accessability
-  - 100% Accessability Score via Google Lighthouse generated report ![Google Lighthouse](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/lighthousescore.png)
+
+  ![Google Lighthouse](https://raw.githubusercontent.com/JamesCrox/The_Dirty_Bird/master/assets/images/lighthousescore.png)
+  - 100% Accessability Score via Google Lighthouse generated report 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamescrox.github.io%2FThe_Dirty_Bird%2F)
 - CSS
